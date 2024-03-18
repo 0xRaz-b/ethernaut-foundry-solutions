@@ -1,0 +1,54 @@
+{
+  "transactions": [
+    {
+      "hash": "0x8e308782545491262637747041ab560f6a8ca9c9f3affc06b9141c6035e11d79",
+      "transactionType": "CREATE",
+      "contractName": null,
+      "contractAddress": "0xEBa64712a049883642b431207528421fB3904438",
+      "function": null,
+      "arguments": null,
+      "transaction": {
+        "type": "0x02",
+        "from": "0x73de6b8e575d8b31a89568e9b3d0b3e89c25d8e5",
+        "gas": "0x2ca5d",
+        "value": "0x0",
+        "data": "0x6080604052600080546001600160a01b031916731c02350ddfe67215fa54a890cc5d95a981a3052417905534801561003657600080fd5b5061012b806100466000396000f3fe60806040526004361060205760003560e01c8063df39c56d14602b57600080fd5b36602657fe5b600080fd5b348015603657600080fd5b50603d603f565b005b600054604051631387164560e21b81523360048201526001600160a01b0390911690634e1c591490602401600060405180830381600087803b158015608357600080fd5b505af11580156096573d6000803e3d6000fd5b50506000805460408051633ccfd60b60e01b815290516001600160a01b039092169450633ccfd60b9350600480820193929182900301818387803b15801560dc57600080fd5b505af115801560ef573d6000803e3d6000fd5b5050505056fea264697066735822122060af88387c44831b080f56cb3a1c99dfacb6ab09e6c6725df1a19e4aba66c9f464736f6c63430008170033",
+        "nonce": "0x123",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    },
+    {
+      "hash": "0x8506af8398807a53cdf398c86d8953bd790a1a26faf706c8608cb223a2abe930",
+      "transactionType": "CALL",
+      "contractName": "script/Denial.s.sol:Attack",
+      "contractAddress": "0xEBa64712a049883642b431207528421fB3904438",
+      "function": "makeItDown()",
+      "arguments": [],
+      "transaction": {
+        "type": "0x02",
+        "from": "0x73de6b8e575d8b31a89568e9b3d0b3e89c25d8e5",
+        "to": "0xeba64712a049883642b431207528421fb3904438",
+        "gas": "0x12e87",
+        "value": "0x0",
+        "data": "0xdf39c56d",
+        "nonce": "0x124",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [
+    "0x8e308782545491262637747041ab560f6a8ca9c9f3affc06b9141c6035e11d79",
+    "0x8506af8398807a53cdf398c86d8953bd790a1a26faf706c8608cb223a2abe930"
+  ],
+  "returns": {},
+  "timestamp": 1708980474,
+  "chain": 11155111,
+  "multi": false,
+  "commit": "ffdf981"
+}

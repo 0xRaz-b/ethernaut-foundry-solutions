@@ -1,0 +1,51 @@
+{
+  "transactions": [
+    {
+      "hash": "0xcd586d71e4c58292c0ffb4b8dae43ce4679b4e8fc201cf537e61f86a54ad6a0a",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0xe51FcA443348A7b935CA71638588A9B3cce86323",
+      "function": "flip(bool)",
+      "arguments": [
+        "true"
+      ],
+      "transaction": {
+        "type": "0x02",
+        "from": "0x73de6b8e575d8b31a89568e9b3d0b3e89c25d8e5",
+        "to": "0xe51fca443348a7b935ca71638588a9b3cce86323",
+        "gas": "0xa647",
+        "value": "0x0",
+        "data": "0x1d263f670000000000000000000000000000000000000000000000000000000000000001",
+        "nonce": "0x60",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [
+    {
+      "transactionHash": "0xcd586d71e4c58292c0ffb4b8dae43ce4679b4e8fc201cf537e61f86a54ad6a0a",
+      "transactionIndex": "0x25",
+      "blockHash": "0x1637c695a282f3bc3388b8cf176356a9c392038d937929c02466441ac639fd1c",
+      "blockNumber": "0x50c9e8",
+      "from": "0x73de6b8e575D8B31A89568e9B3d0b3E89C25d8e5",
+      "to": "0xe51FcA443348A7b935CA71638588A9B3cce86323",
+      "cumulativeGasUsed": "0x48fff4",
+      "gasUsed": "0x71b2",
+      "contractAddress": null,
+      "logs": [],
+      "status": "0x1",
+      "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "type": "0x2",
+      "effectiveGasPrice": "0x4359973e7"
+    }
+  ],
+  "libraries": [],
+  "pending": [],
+  "returns": {},
+  "timestamp": 1708008959,
+  "chain": 11155111,
+  "multi": false,
+  "commit": "ffdf981"
+}

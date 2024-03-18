@@ -1,0 +1,34 @@
+{
+  "transactions": [
+    {
+      "hash": "0x304127e0d85304de90ebbfa3f1e42c96e869afac3e1ce7f18dace0c0414ec8ed",
+      "transactionType": "CALL",
+      "contractName": "script/GateKeeperThree.s.sol:EnterTheGate",
+      "contractAddress": "0xC7f2Cf4845C6db0e1a1e91ED41Bcd0FcC1b0E141",
+      "function": "startTrick()",
+      "arguments": [],
+      "transaction": {
+        "type": "0x02",
+        "from": "0x73de6b8e575d8b31a89568e9b3d0b3e89c25d8e5",
+        "to": "0xc7f2cf4845c6db0e1a1e91ed41bcd0fcc1b0e141",
+        "gas": "0x71a6",
+        "value": "0x0",
+        "data": "0x8709ffaf",
+        "nonce": "0x1c2",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [
+    "0x304127e0d85304de90ebbfa3f1e42c96e869afac3e1ce7f18dace0c0414ec8ed"
+  ],
+  "returns": {},
+  "timestamp": 1710149190,
+  "chain": 11155111,
+  "multi": false,
+  "commit": "ffdf981"
+}

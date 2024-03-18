@@ -1,0 +1,51 @@
+{
+  "transactions": [
+    {
+      "hash": "0xfc131f8c2a24f6a9db59c992c7c0f3a75e35767a24e1d6c5b35459dde3c21ab6",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0x28Bf7A2Dbc610246072fE9b526245e476b19006B",
+      "function": "setFirstTime(uint256)",
+      "arguments": [
+        "522099931989990651499694152976580669263511618841"
+      ],
+      "transaction": {
+        "type": "0x02",
+        "from": "0x73de6b8e575d8b31a89568e9b3d0b3e89c25d8e5",
+        "to": "0x28bf7a2dbc610246072fe9b526245e476b19006b",
+        "gas": "0x912d",
+        "value": "0x0",
+        "data": "0xf1e026200000000000000000000000005b73c5498c1e3b4dba84de0f1833c4a029d90519",
+        "nonce": "0xc5",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [
+    {
+      "transactionHash": "0xfc131f8c2a24f6a9db59c992c7c0f3a75e35767a24e1d6c5b35459dde3c21ab6",
+      "transactionIndex": "0x19",
+      "blockHash": "0xe93d5c4006e073805dddbb283cbc9c8e0ed6292965a5620d9c7da5777bcd42c9",
+      "blockNumber": "0x5181a0",
+      "from": "0x73de6b8e575D8B31A89568e9B3d0b3E89C25d8e5",
+      "to": "0x28Bf7A2Dbc610246072fE9b526245e476b19006B",
+      "cumulativeGasUsed": "0x259153",
+      "gasUsed": "0x691c",
+      "contractAddress": null,
+      "logs": [],
+      "status": "0x1",
+      "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "type": "0x2",
+      "effectiveGasPrice": "0x194235010"
+    }
+  ],
+  "libraries": [],
+  "pending": [],
+  "returns": {},
+  "timestamp": 1708615061,
+  "chain": 11155111,
+  "multi": false,
+  "commit": "ffdf981"
+}

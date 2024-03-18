@@ -1,0 +1,51 @@
+{
+  "transactions": [
+    {
+      "hash": null,
+      "transactionType": "CREATE",
+      "contractName": "DenialAttack",
+      "contractAddress": "0x5b73C5498c1E3b4dbA84de0F1833c4a029d90519",
+      "function": null,
+      "arguments": null,
+      "transaction": {
+        "type": "0x02",
+        "from": "0x1804c8ab1f12e6bbf3894d4083f33e07309d1f38",
+        "gas": "0x25de8",
+        "value": "0x0",
+        "data": "0x6080604052600080546001600160a01b031916731c02350ddfe67215fa54a890cc5d95a981a3052417905534801561003657600080fd5b5060c8806100456000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80632c88c5f814602d575b600080fd5b60336035565b005b600054604051631387164560e21b81523360048201526001600160a01b0390911690634e1c591490602401600060405180830381600087803b158015607957600080fd5b505af1158015608c573d6000803e3d6000fd5b5050505056fea264697066735822122040c75d4b8a16d6e1028fea681b02db0e4acd3b943aa4f48495ade78739d42aa564736f6c63430008170033",
+        "nonce": "0x2",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    },
+    {
+      "hash": null,
+      "transactionType": "CALL",
+      "contractName": "script/Denial.s.sol:Attack",
+      "contractAddress": "0x34A1D3fff3958843C43aD80F30b94c510645C316",
+      "function": "setPartner()",
+      "arguments": [],
+      "transaction": {
+        "type": "0x02",
+        "from": "0x1804c8ab1f12e6bbf3894d4083f33e07309d1f38",
+        "to": "0x34a1d3fff3958843c43ad80f30b94c510645c316",
+        "gas": "0x71a6",
+        "value": "0x0",
+        "data": "0x2c88c5f8",
+        "nonce": "0x3",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [],
+  "returns": {},
+  "timestamp": 1709035972,
+  "chain": 11155111,
+  "multi": false,
+  "commit": "ffdf981"
+}

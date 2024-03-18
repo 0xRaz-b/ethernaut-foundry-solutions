@@ -1,0 +1,9 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+#eth_rpc_url = 'https://rpc.ankr.com/eth_goerli'
+eth_rpc_url = 'https://rpc.ankr.com/eth_sepolia'
+etherscan_api_key = "7PKI1IDNRI73NX9R9WXA2M4ZG3VHJG59M6"

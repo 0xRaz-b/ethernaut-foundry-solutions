@@ -1,0 +1,36 @@
+{
+  "transactions": [
+    {
+      "hash": "0x772cb1f01e6189992e93f702e46cd360f9588c7ae6c3b082a2ccdce38d5b1383",
+      "transactionType": "CALL",
+      "contractName": "script/Telephone.s.sol:attack",
+      "contractAddress": "0xC7f2Cf4845C6db0e1a1e91ED41Bcd0FcC1b0E141",
+      "function": "AttackToChangeOwner(address)",
+      "arguments": [
+        "0xaA8a41be527f0FD330Fa7DA1ca96AFF10E4F8dD9"
+      ],
+      "transaction": {
+        "type": "0x02",
+        "from": "0x73de6b8e575d8b31a89568e9b3d0b3e89c25d8e5",
+        "to": "0xc7f2cf4845c6db0e1a1e91ed41bcd0fcc1b0e141",
+        "gas": "0x73a2",
+        "value": "0x0",
+        "data": "0xa9968729000000000000000000000000aa8a41be527f0fd330fa7da1ca96aff10e4f8dd9",
+        "nonce": "0x73",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [
+    "0x772cb1f01e6189992e93f702e46cd360f9588c7ae6c3b082a2ccdce38d5b1383"
+  ],
+  "returns": {},
+  "timestamp": 1708100737,
+  "chain": 11155111,
+  "multi": false,
+  "commit": "ffdf981"
+}
